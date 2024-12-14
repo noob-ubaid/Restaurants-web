@@ -7,9 +7,14 @@ export default {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#1677BD",
+        secondary: "#AFAFAF",
+      },
+      fontFamily: { roboto: '"Roboto", sans-serif' },
+    },
   },
   darkMode: "class",
   plugins: [nextui()],
-}
-
+};
