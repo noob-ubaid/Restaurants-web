@@ -1,10 +1,11 @@
 import React from 'react'
+import Heroheader from './Heroheader'
 
 const Homepage = () => {
   return (
-    <section>
-      
-    </section>
+    <>
+      <Heroheader/>
+    </>
   )
 }
 

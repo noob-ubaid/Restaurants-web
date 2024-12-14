@@ -27,7 +27,7 @@ const NavbarArea = () => {
         </div>
 
         <div className="items-center flex gap-2">
-          <img src="/public/world.png" alt="" />
+          <img className="size-[20px]" src="/public/world.png" alt="" />
           <button className="font-roboto text-[16px] md:px-5 md:py-3 px-2 py-1.5 bg-black text-white rounded-full ">
             MyFeedback for business
           </button>
